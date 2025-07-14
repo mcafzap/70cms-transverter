@@ -1,0 +1,249 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "1f9793f8-15dd-403b-8c48-cd25aecd6b3b")
+	(paper "A4")
+	(title_block
+		(title "430Mhz - QO-100 transverter")
+		(date "2025-04-24")
+		(rev "2.1")
+		(comment 1 "solder link for local /ext  oscillator")
+		(comment 2 "IF up 1970MHz, IF down 309MHz")
+		(comment 4 "70cm transverter for QO-100")
+	)
+	(lib_symbols)
+	(sheet
+		(at 220.98 23.495)
+		(size 54.61 36.195)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "06f57f1f-0b2c-4369-978a-b9d1dcab3ace")
+		(property "Sheetname" "LNB mods"
+			(at 220.98 22.7834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LNB mods.kicad_sch"
+			(at 220.98 60.2746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "432trans21"
+				(path "/1f9793f8-15dd-403b-8c48-cd25aecd6b3b"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 19.685 22.86)
+		(size 94.615 69.85)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "181e92ad-d360-46fd-b683-17f82f66cc41")
+		(property "Sheetname" "processor"
+			(at 19.685 22.1484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "processor.kicad_sch"
+			(at 19.685 93.2946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "432trans21"
+				(path "/1f9793f8-15dd-403b-8c48-cd25aecd6b3b"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 147.32 121.92)
+		(size 53.34 34.29)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4d16043f-a7eb-4a87-9a5b-0ff2b2adcef6")
+		(property "Sheetname" "oscillator"
+			(at 147.32 121.2084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "oscillator.kicad_sch"
+			(at 147.32 156.7946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "432trans21"
+				(path "/1f9793f8-15dd-403b-8c48-cd25aecd6b3b"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 146.685 22.86)
+		(size 54.61 36.195)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "76969e03-b34b-44ef-80e3-635c160c1bfc")
+		(property "Sheetname" "output"
+			(at 146.685 22.1484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "output.kicad_sch"
+			(at 146.685 59.6396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "432trans21"
+				(path "/1f9793f8-15dd-403b-8c48-cd25aecd6b3b"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 147.32 74.295)
+		(size 53.34 36.83)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "79943dcc-8759-4338-bfa7-e11c27f7002b")
+		(property "Sheetname" "power"
+			(at 147.32 73.5834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 147.32 111.7096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "432trans21"
+				(path "/1f9793f8-15dd-403b-8c48-cd25aecd6b3b"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 23.495 106.68)
+		(size 97.155 68.58)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a04e3977-8079-45a0-b640-d03b1af68eeb")
+		(property "Sheetname" "main"
+			(at 23.495 105.9684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "main.kicad_sch"
+			(at 23.495 175.8446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "432trans21"
+				(path "/1f9793f8-15dd-403b-8c48-cd25aecd6b3b"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
